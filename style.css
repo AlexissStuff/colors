@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+  width: 100%;  
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0%;
+  background-color: #000000;
+  color: white;
+  
+}
+.menu {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100%;
+  color: white; 
+}
+#r {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #ff0000;
+}
+
+#o {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #ffa200;
+}
+#y {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #ffff00;
+}
+#g {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #00ff00;
+}
+#b {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #0000ff;
+}
+#p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #800080;
+}
+#pi {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #ffbfcb;
+}
+#br {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #a65929;
+}
+#bl {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #000000;
+}
+#w {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #ffffff;
+  color: black;
+}
+#gr {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #808080;
+}
+#title {
+  font-size: 20vw;
+  margin: 5%; 
+  text-align: center;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+  0% {color: #ff0000;}
+  20% {color: #ffff00;}
+  40% {color: #00ff00;}
+  60% {color: #0000ff;}
+  80% {color: #800080;}
+  100% {color: #ff0000;}
+}
+#abt {
+  text-align: center;
+  margin: 2.5%;
+  font-size: 10vw;
+}
+#abt:hover{
+  font-size: 15vw;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.cntr {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#clr {
+  animation-name: colorFlash;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorFlash {
+  0% {background-color: #ff0000;}
+  20% {background-color: #ffff00;}
+  40% {background-color: #00ff00;}
+  60% {background-color: #0000ff;}
+  80% {background-color: #800080;}
+  100% {background-color: #ff0000;}
+}
+.red {
+  text-align: center;
+  background-color: #ff0000;
+}
+.ttl {
+ font-size: 15vw; 
+}
+.hdr {
+  font-size: 10vw;
+  margin: 0%;
+}
+.info {
+  text-align: center;
+  margin: 0%;
+  font-size: 8vw;
+}
